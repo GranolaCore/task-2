@@ -3,6 +3,6 @@ const { getUserInfoHandler } = require('./controller');
 
 const router = express.Router();
 
-router.get('/whoami', getUserInfoHandler);
+router.get('api/whoami', getUserInfoHandler);
 
 module.exports = router;
